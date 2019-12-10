@@ -8,7 +8,7 @@ class TopNavBar extends Component {
     return (
       <React.Fragment>
         <h1>I'm a TopNavBar</h1>
-        <h2>I'm Upin!</h2>
+        <h2>I'm Upin</h2>
       </React.Fragment>
     );
   }
