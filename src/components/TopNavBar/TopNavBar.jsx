@@ -7,7 +7,7 @@ class TopNavBar extends Component {
   render() {
     return (
       <React.Fragment>
-        <h1>I am a TopNavBar</h1>
+        <h1>I'm a TopNavBar</h1>
       </React.Fragment>
     );
   }
