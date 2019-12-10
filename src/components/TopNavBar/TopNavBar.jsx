@@ -9,7 +9,7 @@ class TopNavBar extends Component {
       <React.Fragment>
         <h1>I'm a TopNavBar</h1>
         <h2>I'm Upin</h2>
-        <p>Test para</p>
+        <i class="fa fa-paragraph" aria-hidden="true"></i>
       </React.Fragment>
     );
   }
