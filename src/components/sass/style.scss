@@ -1,0 +1,60 @@
+@import "../../assets/sass/media-query.scss";
+@import url("https://fonts.googleapis.com/css?family=Coiny");
+.main-wrapper {
+  .banner-wrapper {
+    text-align: center;
+    .main-image {
+      max-width: 85%;
+      animation: floating;
+      animation-duration: 3s;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+    }
+    .title {
+      color: #aaa8f9;
+      font-family: "Coiny", cursive;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/769286/clouds.jpg);
+      background-size: auto;
+      background-attachment: unset;
+      background-position: 0%;
+      animation: clouds-moving infinite 220s;
+      animation-fill-mode: forwards;
+      animation-play-state: running;
+      animation-timing-function: linear;
+      text-align: center;
+      @keyframes clouds-moving {
+        0% {
+          background-position: 0%;
+        }
+        50% {
+          background-position: 100%;
+        }
+        100% {
+          background-position: 0%;
+        }
+      }
+    }
+  }
+  .button-zone-wrapper {
+    text-align: center;
+    .button-text {
+      margin: 10px;
+    }
+    .button {
+      margin: 10px;
+    }
+  }
+  @keyframes floating {
+    from {
+      transform: translate(0, 0px);
+    }
+    65% {
+      transform: translate(0, 15px);
+    }
+    to {
+      transform: translate(0, -0px);
+    }
+  }
+}
